@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+  <body>
+
+    <h1>Course Catelog</h1>
+    <h3>Below is a list of course offerings to choose from</h3>
+    <div>
+        <p>Below is a list of all the available courses <br>
+        that can be enrolled in this semester:
+        </p>
+    </div>
+    <ul id="courses">
+      <li>Sociology</li>
+      <li>Psychology</li>
+      <li>Mathematics</li>
+        <ul id="math_subjects">
+        <li>Algebra</li>
+        <li>Geometry</li>
+        <li>Calculus</li>
+        </ul>
+      </li>
+      <li>Sciences
+          <ul id="science_subjects">
+          <li>Geology</li>
+          <li>Physics</li>
+          <li>Chemistry</li>
+          </ul>
+      </li>
+      <li id="world_history">World History </li>
+
+    </ul>
+
+    <form >
+      <fieldset>
+        <legend>Add Course Info</legend>
+      <label for="major_subject">Add Major Subject</label>
+      <input type="text" id="major_subject" name = "major_subject">
+      <br>
+      <button  type= "button" class = button id=major_button >Major Subject</button>
+      <br><br>
+
+      <label for="minor_subject">Add Sub Catagory</label>
+      <input type="text" id="minor_subject" name="minor_subject">
+      <br>
+      <button type="button" class = button id=sub_button >sub_catagory</button>
+      <br>
+    
+    </fieldset>
+    </form>
+    
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/custom_jquery_code.js"></script>
+
+  </body>
+</html>
